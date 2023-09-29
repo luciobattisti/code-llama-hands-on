@@ -28,7 +28,7 @@ git clone https://github.com/liltom-eth/llama2-webui.git
 5. ## Download code models
 
 Models are available at https://huggingface.co/TheBloke  
-In this example, we are going to download a code completion and a code chat model 
+In this example, we are going to download a code completion and a code instruction chat model 
 
 ```bash
 cd llama2-webui
@@ -46,9 +46,9 @@ python -m llama2_wrapper.download --repo_id TheBloke/CodeLlama-7B-Instruct-GGUF 
     ```
     The open the browser at http://127.0.0.1:7860
 
+     ![plot](./images/code-completion.png)
 
-
-7. ## Run code chatbot
+7. ## Run code instruction chatbot
 
     ```bash
     cd llama2-webui 
